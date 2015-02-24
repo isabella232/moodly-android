@@ -19,7 +19,7 @@ import static org.junit.Assert.fail;
  * Created by claus on 09/02/15.
  */
 @RunWith(JUnit4.class)
-public class ExampleRobolectricTest {
+public class UrlExtractorTest {
 
     private static final String MOODLY_ID = "moodly-id";
     private UrlExtractor urlExtractor;
