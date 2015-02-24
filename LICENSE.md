@@ -1,1 +1,3 @@
-# moodly-android
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
