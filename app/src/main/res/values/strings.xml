@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Moddly</string>
+    <string name="voteLabel">Your Vote</string>
+    <string name="iterationLabel">Current Iteration</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_vote_stats">Stats</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="moodlyIdLabel">Moodly ID</string>
+    <string name="moodlyId">com.example.moodly.app.moodlyId</string>
+    <string name="hostLabel">Host</string>
+    <string name="button_update">Update</string>
+
+</resources>
