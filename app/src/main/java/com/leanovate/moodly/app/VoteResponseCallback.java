@@ -1,4 +1,4 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 /**
  * Created by claus on 05/02/15.

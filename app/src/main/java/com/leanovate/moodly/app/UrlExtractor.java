@@ -1,4 +1,4 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

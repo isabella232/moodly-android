@@ -1,4 +1,4 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 import android.app.Activity;
 import android.content.Context;
@@ -19,7 +19,7 @@ import java.util.UUID;
 
 public class MainActivity extends Activity implements VoteResponseCallback {
 
-    public static final String VOTE_RESPONSE_KEY = "com.example.moodly.app.voteResponse";
+    public static final String VOTE_RESPONSE_KEY = "com.leanovate.moodly.app.voteResponse";
     private UrlExtractor urlExtractor = new UrlExtractor();
     private ViewFlipper moodFlipper;
     private GestureDetector gestureDetector;
@@ -133,7 +133,7 @@ public class MainActivity extends Activity implements VoteResponseCallback {
             Log.d(DEBUG_TAG,"onDoubleTap: " + e.toString() );
             int displayedChild = moodFlipper.getDisplayedChild();
             Log.d(DEBUG_TAG,"onDoubleTap --> " + displayedChild);
-            com.example.moodly.app.VoteMoodTask voteMoodTask = new VoteMoodTask(MainActivity.this,clientId,host,moodlyId);
+            VoteMoodTask voteMoodTask = new VoteMoodTask(MainActivity.this,clientId,host,moodlyId);
             voteMoodTask.execute(new Vote(displayedChild-1,clientId));
             return true;
         }

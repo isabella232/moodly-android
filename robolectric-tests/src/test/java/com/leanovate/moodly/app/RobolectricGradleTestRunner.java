@@ -1,4 +1,4 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 import org.robolectric.RobolectricTestRunner;
 import org.junit.runners.model.InitializationError;

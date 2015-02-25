@@ -1,7 +1,6 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 
-import org.hamcrest.MatcherAssert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

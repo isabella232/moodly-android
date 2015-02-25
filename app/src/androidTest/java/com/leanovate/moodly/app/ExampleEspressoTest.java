@@ -1,8 +1,9 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 import android.support.test.espresso.ViewInteraction;
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.suitebuilder.annotation.LargeTest;
+import com.leanovate.moodly.app.MainActivity;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.*;

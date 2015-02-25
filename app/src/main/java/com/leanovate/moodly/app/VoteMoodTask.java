@@ -1,10 +1,7 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 import android.os.AsyncTask;
 import android.util.Log;
-
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.web.client.RestTemplate;
 
 
 public class VoteMoodTask extends AsyncTask<Vote,Void,VoteResponse> {

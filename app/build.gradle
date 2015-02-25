@@ -17,7 +17,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.example.moodly.app"
+        applicationId "com.leanovate.moodly.app"
         minSdkVersion 11
         targetSdkVersion 21
         versionCode 1

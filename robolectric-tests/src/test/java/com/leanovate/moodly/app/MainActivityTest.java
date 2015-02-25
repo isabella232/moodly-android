@@ -1,4 +1,4 @@
-package com.example.moodly.app;
+package com.leanovate.moodly.app;
 
 import android.widget.ImageView;
 import org.junit.Before;
