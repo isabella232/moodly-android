@@ -20,7 +20,7 @@ android {
         applicationId "com.leanovate.moodly.app"
         minSdkVersion 11
         targetSdkVersion 21
-        versionCode 1
+        versionCode System.getenv("BUILD_NUMBER") as Integer
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
