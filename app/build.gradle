@@ -77,7 +77,7 @@ testobject {
     username System.getenv("testobjectusername")
     password System.getenv("testobjectpassword")
     app System.getenv("testobjectappname")
-    testSuite System.getenv("testobjecttestsuite") as Integer
+    testSuite System.getenv("testobjectsuite") as Integer
 
 
 
