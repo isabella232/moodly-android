@@ -3,13 +3,16 @@ buildscript {
         jcenter()
         mavenCentral()
         maven { url 'http://nexus.testobject.org/nexus/content/repositories/testobject-public-repo' }
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.0.0'
-        classpath group: 'org.testobject', name: 'testobject-gradle-plugin', version: '0.0.8'
+
+        classpath group: 'org.testobject', name: 'testobject-gradle-plugin', version: '0.0.22'
     }
 }
 apply plugin: 'com.android.application'
+apply plugin: 'testobject'
 
 repositories {
     jcenter()
@@ -25,7 +28,7 @@ android {
         minSdkVersion 11
         targetSdkVersion 21
         versionCode System.getenv("BUILD_NUMBER") as Integer
-        versionName "1.0"
+        versionName "1.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
@@ -69,3 +72,17 @@ dependencies {
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.0'
     androidTestCompile 'com.android.support.test:testing-support-lib:0.1'
 }
+
+testobject {
+    username System.getenv("testobjectusername")
+    password System.getenv("testobjectpassword")
+    app System.getenv("testobjectappname")
+    testSuite System.getenv("testobjecttestsuite") as Integer
+
+
+
+
+
+
+}
+
