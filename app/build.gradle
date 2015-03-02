@@ -79,8 +79,12 @@ testobject {
     app System.getenv("testobjectappname")
     testSuite System.getenv("testobjectsuite") as Integer
 
-
-
+    println 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    println username
+    println password
+    println app
+    println testSuite
+    println 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 
 
