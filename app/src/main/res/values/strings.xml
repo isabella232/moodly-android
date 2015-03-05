@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Moddly</string>
+    <string name="app_name">Moodly</string>
     <string name="voteLabel">Your Vote</string>
     <string name="iterationLabel">Current Iteration</string>
     <string name="action_settings">Settings</string>

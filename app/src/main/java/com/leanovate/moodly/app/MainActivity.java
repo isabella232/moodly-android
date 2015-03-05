@@ -68,6 +68,7 @@ public class MainActivity extends Activity implements VoteResponseCallback {
         super.onResume();
     }
 
+
     @Override
     public boolean onTouchEvent(MotionEvent event){
         this.gestureDetector.onTouchEvent(event);
@@ -114,6 +115,7 @@ public class MainActivity extends Activity implements VoteResponseCallback {
             return true;
         }
 
+
         @Override
         public boolean onFling(MotionEvent event1, MotionEvent event2,
                                float velocityX, float velocityY) {
@@ -137,6 +139,8 @@ public class MainActivity extends Activity implements VoteResponseCallback {
             voteMoodTask.execute(new Vote(displayedChild-1,clientId));
             return true;
         }
+
+
     }
 
 }
