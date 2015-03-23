@@ -1,2 +1,4 @@
-include ':app' ,':robolectric-tests'
+include ':app', ':robolectric-tests', ':appium'
+
+
 
