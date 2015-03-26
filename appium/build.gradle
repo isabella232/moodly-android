@@ -10,6 +10,6 @@ repositories {
 dependencies {
     testCompile 'io.appium:java-client:2.1.0'
     testCompile 'com.saucelabs:sauce_junit:2.1.13'
-    // testCompile group: 'com.saucelabs', name: 'sauce_junit', version: '1.0.0'
+
 }
 
